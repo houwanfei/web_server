@@ -1,0 +1,14 @@
+group 'com.hou'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.0'
+}
